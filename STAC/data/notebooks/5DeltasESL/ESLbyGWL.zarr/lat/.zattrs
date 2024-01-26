@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "nstations"
+    ],
+    "long_name": "latitude",
+    "standard_name": "longitude",
+    "units": "degrees_north"
+}

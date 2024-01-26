@@ -1,0 +1,41 @@
+{
+    "AUTHOR": "Tebaldi, C., Ranasinghe, R., Vousdoukas, M., Rasmussen, D. J., Vega-Westhoff, B., Kirezci, E., Kopp, R.E., Sriver, R. & Mentaschi, L.",
+    "CITATION": "Tebaldi, C., Ranasinghe, R., Vousdoukas, M., Rasmussen, D. J., Vega-Westhoff, B., Kirezci, E., . . . Mentaschi, L. (2021). Extreme sea levels at different global warming levels. Nature Climate Change, 11(9), 746-751. doi:10.1038/s41558-021-01127-1",
+    "COMMENT": "",
+    "CRS": "EPSG:4326",
+    "Conventions": "CF-1.8",
+    "DESCRIPTION": "Extreme sea level projections for five return periods (5, 10, 20 50 and 100 year) for different global warming levels (present-day, 1.5 degree, 3 degree and 5 degree difference) for five different delta's across the world  for the year 2100.",
+    "DOI": "https://doi:10.1038/s41558-021-01127-1",
+    "HISTORY": [
+        "Joint Global Change Research Institute, Pacific Northwest National Laboratory",
+        "Deltares"
+    ],
+    "INSTITUTION": "Joint Global Change Research Institute, Pacific Northwest National Laboratory",
+    "KEYWORDS": [
+        "climate change",
+        "extreme sea level",
+        "deltas"
+    ],
+    "LICENSE": "Creative Commons Attribution 4.0 International License",
+    "LONG_NAME": "ESL_BY_GWL",
+    "MEDIA_TYPE": "TEXT/CSV",
+    "PROVIDERS": "{\"name\": \"Joint Global Change Research Institute, Pacific Northwest National Laboratory\", \"url\": \"https://www.pnnl.gov/projects/jgcri\", \"roles\": \"provider\", \"description\": \"JGCRI advances the fundamental understanding of human and Earth systems to provide decision-relevant information for management of emerging global risks and opportunities.\"}",
+    "SHORT_DESCRIPTION": "Extreme sea level projections for different global warming levels for five different delta's across the world. ",
+    "SPATIAL_EXTENT": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "TAGS": [
+        "climate change",
+        "extreme sea level",
+        "deltas"
+    ],
+    "TEMPORAL_EXTENT": [
+        "2100-01-01T00:00:00Z"
+    ],
+    "TITLE": "ESL by GWL",
+    "TITLE_ABBREVIATION": "esl_gwl",
+    "UNITS": "m"
+}

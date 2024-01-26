@@ -1,0 +1,40 @@
+CHECKING NetCDF FILE: C:\Users\rowe\OneDrive - Stichting Deltares\Documents\GitHub\global-coastal-atlas\STAC\data\notebooks\5DeltasESL\ESLbyGWL_CF.nc
+=====================
+Using CF Checker Version 4.1.0
+Checking against CF Version CF-1.8
+Using Standard Name Table Version 84 (2024-01-18T15:55:10Z)
+Using Area Type Table Version 11 (06 July 2023)
+Using Standardized Region Name Table Version 4 (18 December 2018)
+
+
+------------------
+Checking variable: gwl
+------------------
+
+------------------
+Checking variable: ensemble
+------------------
+
+------------------
+Checking variable: lon
+------------------
+
+------------------
+Checking variable: lat
+------------------
+
+------------------
+Checking variable: esl
+------------------
+
+------------------
+Checking variable: rp
+------------------
+
+------------------
+Checking variable: stations
+------------------
+
+ERRORS detected: 0
+WARNINGS given: 0
+INFORMATION messages: 0

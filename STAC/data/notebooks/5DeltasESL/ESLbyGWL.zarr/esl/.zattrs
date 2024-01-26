@@ -1,0 +1,11 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "rp",
+        "gwl",
+        "ensemble",
+        "nstations"
+    ],
+    "coordinates": "lat lon stations",
+    "long_name": "extreme sea level",
+    "units": "m"
+}

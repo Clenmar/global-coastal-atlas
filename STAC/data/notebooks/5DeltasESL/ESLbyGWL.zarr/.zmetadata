@@ -1,0 +1,250 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "AUTHOR": "Tebaldi, C., Ranasinghe, R., Vousdoukas, M., Rasmussen, D. J., Vega-Westhoff, B., Kirezci, E., Kopp, R.E., Sriver, R. & Mentaschi, L.",
+            "CITATION": "Tebaldi, C., Ranasinghe, R., Vousdoukas, M., Rasmussen, D. J., Vega-Westhoff, B., Kirezci, E., . . . Mentaschi, L. (2021). Extreme sea levels at different global warming levels. Nature Climate Change, 11(9), 746-751. doi:10.1038/s41558-021-01127-1",
+            "COMMENT": "",
+            "CRS": "EPSG:4326",
+            "Conventions": "CF-1.8",
+            "DESCRIPTION": "Extreme sea level projections for five return periods (5, 10, 20 50 and 100 year) for different global warming levels (present-day, 1.5 degree, 3 degree and 5 degree difference) for five different delta's across the world  for the year 2100.",
+            "DOI": "https://doi:10.1038/s41558-021-01127-1",
+            "HISTORY": [
+                "Joint Global Change Research Institute, Pacific Northwest National Laboratory",
+                "Deltares"
+            ],
+            "INSTITUTION": "Joint Global Change Research Institute, Pacific Northwest National Laboratory",
+            "KEYWORDS": [
+                "climate change",
+                "extreme sea level",
+                "deltas"
+            ],
+            "LICENSE": "Creative Commons Attribution 4.0 International License",
+            "LONG_NAME": "ESL_BY_GWL",
+            "MEDIA_TYPE": "TEXT/CSV",
+            "PROVIDERS": "{\"name\": \"Joint Global Change Research Institute, Pacific Northwest National Laboratory\", \"url\": \"https://www.pnnl.gov/projects/jgcri\", \"roles\": \"provider\", \"description\": \"JGCRI advances the fundamental understanding of human and Earth systems to provide decision-relevant information for management of emerging global risks and opportunities.\"}",
+            "SHORT_DESCRIPTION": "Extreme sea level projections for different global warming levels for five different delta's across the world. ",
+            "SPATIAL_EXTENT": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "TAGS": [
+                "climate change",
+                "extreme sea level",
+                "deltas"
+            ],
+            "TEMPORAL_EXTENT": [
+                "2100-01-01T00:00:00Z"
+            ],
+            "TITLE": "ESL by GWL",
+            "TITLE_ABBREVIATION": "esl_gwl",
+            "UNITS": "m"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "ensemble/.zarray": {
+            "chunks": [
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i4",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3
+            ],
+            "zarr_format": 2
+        },
+        "ensemble/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "ensemble"
+            ],
+            "long_name": "ensemble",
+            "units": "1"
+        },
+        "esl/.zarray": {
+            "chunks": [
+                5,
+                4,
+                3,
+                230
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                4,
+                3,
+                230
+            ],
+            "zarr_format": 2
+        },
+        "esl/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "rp",
+                "gwl",
+                "ensemble",
+                "nstations"
+            ],
+            "coordinates": "lat lon stations",
+            "long_name": "extreme sea level",
+            "units": "m"
+        },
+        "gwl/.zarray": {
+            "chunks": [
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4
+            ],
+            "zarr_format": 2
+        },
+        "gwl/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "gwl"
+            ],
+            "long_name": "global warming level",
+            "units": "degrees"
+        },
+        "lat/.zarray": {
+            "chunks": [
+                230
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                230
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "nstations"
+            ],
+            "long_name": "latitude",
+            "standard_name": "longitude",
+            "units": "degrees_north"
+        },
+        "lon/.zarray": {
+            "chunks": [
+                230
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                230
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "nstations"
+            ],
+            "long_name": "longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east"
+        },
+        "rp/.zarray": {
+            "chunks": [
+                5
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5
+            ],
+            "zarr_format": 2
+        },
+        "rp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "rp"
+            ],
+            "long_name": "return period",
+            "units": "yr"
+        },
+        "stations/.zarray": {
+            "chunks": [
+                230
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|S15",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                230
+            ],
+            "zarr_format": 2
+        },
+        "stations/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "nstations"
+            ],
+            "long_name": "stations",
+            "units": "1"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
